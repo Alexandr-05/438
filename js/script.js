@@ -88,11 +88,11 @@
 
 // 6.  Даны переменные a = 10 и b = 3. Найдите остаток от деления a на b. 
 
-// let a = 10;
-// let b = 3;
-// let z = a % b;
+let a = 10;
+let b = 3;
+let z = a % b;
  
-// console.log(z);
+  console.log(z);
 
 // 7.  С помощью цикла for сформируйте строку '123456789' и запишите ее в переменную str. 
    
@@ -100,9 +100,8 @@ let str = '';
 
 for (let i = 1; i <= 9; i++) {
 	str = str + i;
-  
 }
-console.log(str);
+  console.log(str);
 
 
 
