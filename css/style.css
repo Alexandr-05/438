@@ -214,7 +214,7 @@ header nav {
     height: 627px;
     padding: 55px 0;
 
-    /* background-image: url("../img/promo/bg-promo.svg"); */
+    background-image: url("../img/promo/bg-promo.svg");
     background-repeat: repeat-x;
     background-position: 0 bottom;
 }
@@ -282,8 +282,6 @@ header nav {
 
 .companies .companies-list {
     justify-content: space-between;
-    align-items: center;
-    
 }
 /***** Секция COMPANIES (конец) *****/
 
@@ -351,8 +349,7 @@ header nav {
     .container {
         max-width: 1290px;
     }
-    
-    
+
     .promo-img {
         max-width: 1100px;
         top: -36px;
@@ -361,15 +358,8 @@ header nav {
 }
 
 @media(max-width: 1299px) {
-
-    .header{
-        max-width: 1000px;
-    }
- 
-
     .logo {
         max-width: 125px;
-        
     }
 
     .btn {
@@ -392,21 +382,6 @@ header nav {
 }
 
 @media(max-width: 991px) {
-
-    .btn {
-        margin-right: 30px;
-        max-width: 202px;
-        max-height: 48px;
-
-        padding-left: 31px;
-        padding-right: 27px;
-        padding-top: 15px;
-        padding-bottom: 16px;
-
-        font-size: 15px;
-    }
-
-    
     .main-menu {
         justify-content: flex-end;
     }
@@ -447,13 +422,6 @@ header nav {
 }
 
 @media(max-width: 767px) {
-
-
-    .logo {
-        padding-left: 7px;
-    }
-
-
     header {
         padding-bottom: 0;
     }
@@ -464,31 +432,18 @@ header nav {
 }
 
 @media(max-width: 479px) {
-
-    
-
-    .burger-menu button{
-        width: 24px;
-        height: 1px;
-
-    }
-
-
     .logo {
         max-width: 72px;
         margin-right: 10px;
-        
     }
 
     .btn {
         margin-right: 16px;
-        max-width: 155px;
-        max-height: 48px;
 
         padding-left: 20px;
         padding-right: 18px;
         padding-top: 12px;
-        padding-bottom: 16px;
+        padding-bottom: 14px;
 
         font-size: 13px;
     }
@@ -512,13 +467,4 @@ header nav {
     .companies {
         margin-top: 0;
     }
-
-    .companies-list {
-        align-items: center;
-    }
 }
-
-    .companies-list .li {
-        max-width: 54px;
-        max-width: 18px;
-    }
